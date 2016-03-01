@@ -1,0 +1,247 @@
+/*
+ Hello.
+
+ I see you looking through my source.  You silly goose.
+
+ Why not just email me, or check out my GitHub?
+
+ github.com/cassidoo
+ */
+/*Forked from https://github.com/cassidoo/cassidoo-v3/ */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	overflow-x: hidden;
+}
+
+h1, h2 {
+	font-family: 'Bitter', serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 3em;
+}
+
+h1 {
+	color: #333333;
+}
+
+h2 {
+	color: #ffffff;
+	padding-top: 15px;
+}
+
+.heading {
+	position: absolute;
+	top: 25%;
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;
+}
+
+canvas {
+	min-height: 150px;
+}
+
+nav {
+	width: 100%;
+	background-color: #efeff1;
+	height: 50px;
+	text-align: center;
+}
+
+nav .container {
+	width: 100%;
+	max-width: 768px;
+}
+
+nav div {
+	display: inline-block;
+	text-align: center;
+	width: 18%;
+	padding: 5px;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+.subheader {
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.projectimg {
+	background-color: #ffffff;
+	float: left;
+	margin: 7px;
+	padding: 5px;
+	max-width: 300px;
+}
+
+#press a {
+	line-height: 2em;
+}
+
+nav div a {
+	text-decoration: none;
+	color: #333333;
+	font-weight: 800;
+	font-size: 1.5em;
+}
+
+nav div a:hover {
+	color: #333333;
+}
+
+.break {
+	width: 100%;
+	height: 5px;
+}
+
+.section {
+	width: 100%;
+	background-color: #333333;
+	color: #ffffff;
+}
+
+.section .content {
+	font-weight: 300;
+	width: 100%;
+	max-width: 768px;
+	padding: 15px 0px 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	line-height: 1.45em;
+	font-size: 1.2em;
+}
+
+#contact {
+	text-align: center;
+}
+
+#contact i {
+	padding: 0px 10px;
+}
+
+/* Colors */
+
+.red {
+	background-color: #d32542;
+}
+
+.orange {
+	background-color: #ff7f19;
+}
+
+.yellow {
+	background-color: #ffc500;
+}
+
+.green {
+	background-color: #a3de00;
+}
+
+.blue {
+	background-color: #25c7d3;
+}
+
+.red-font {
+	color: #d32542;
+}
+
+.orange-font {
+	color: #ff7f19;
+}
+
+.yellow-font {
+	color: #ffc500;
+}
+
+.green-font {
+	color: #a3de00;
+}
+
+.blue-font {
+	color: #25c7d3;
+}
+
+/*Responsive Jazz*/
+
+@media all and (max-width: 800px) {
+	.section .content {
+		width: 90%;
+		max-width: 700px;
+	}
+}
+
+@media all and (max-width: 650px) {
+	.projects {
+		display: none;
+	}
+	
+	nav div {
+		width: 22%;
+	}
+}
+
+@media all and (max-width: 530px) {	
+	h1 {
+		font-size: 2.5em;
+	}
+
+	.heading {
+		top: 5%;
+		width: 400px;
+		margin-left: -200px;
+	}
+	
+	.press {
+		display: none;
+	}
+	
+	nav div {
+		width: 30%;
+		padding: 5px 0px;
+	}
+	
+	#contact a {
+		display: block;
+	}
+}
+
+@media all and (max-width: 480px) {
+	h1 {
+		font-size: 2em;
+	}
+	
+	.heading {
+		top: 2%;
+	}
+	
+	nav {
+		height: auto;
+	}
+	
+	nav .container div {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px 0px;
+	}
+	
+	nav .container .press {
+		display: none;
+	}
+	
+	nav .container .projects {
+		display: none;
+	}
+}
